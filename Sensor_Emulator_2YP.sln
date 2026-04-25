@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37216.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sensor_Emulator_2YP", "Sensor_Emulator_2YP\Sensor_Emulator_2YP.csproj", "{B56BB362-90F9-4B69-A988-1F8F8A8B4F47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B56BB362-90F9-4B69-A988-1F8F8A8B4F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56BB362-90F9-4B69-A988-1F8F8A8B4F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56BB362-90F9-4B69-A988-1F8F8A8B4F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56BB362-90F9-4B69-A988-1F8F8A8B4F47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FDA13D4-338A-4ED0-8E4F-B84337DED6FA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,38 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache
+.vs/
+
+# Rider / VSCode (optional)
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# NuGet
+packages/
+*.nupkg
+
+# Generated files
+*.cache
+*.pdb
+
+# Publish output
+publish/
+
+# Resharper (if used)
+_ReSharper*/
+*.DotSettings.user
