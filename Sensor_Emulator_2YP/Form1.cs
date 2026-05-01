@@ -105,6 +105,12 @@ namespace Sensor_Emulator_2YP
                     return;
                 }
 
+                if (!int.TryParse(txtDeviceId.Text, out int deviceId))
+                {
+                    Log($"Error: Device Id:'{txtDeviceId.Text}' must be an integer.");
+                    return;
+                }
+
                 if (string.IsNullOrWhiteSpace(txtValue.Text))
                 {
                     Log("Error: Value cannot be empty.");
@@ -137,7 +143,7 @@ namespace Sensor_Emulator_2YP
 
                 var payloadObj = new
                 {
-                    deviceId = txtDeviceId.Text,
+                    deviceId = deviceId,
                     value = value,
                     sensorHealth = sensorHealth,
                     timestamp = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ")
