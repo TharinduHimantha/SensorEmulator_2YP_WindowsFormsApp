@@ -105,11 +105,13 @@ namespace Sensor_Emulator_2YP
                     return;
                 }
 
-                if (!int.TryParse(txtDeviceId.Text, out int deviceId))
-                {
-                    Log($"Error: Device Id:'{txtDeviceId.Text}' must be an integer.");
-                    return;
-                }
+                //if (!int.TryParse(txtDeviceId.Text, out int deviceId))
+                //{
+                //    Log($"Error: Device Id:'{txtDeviceId.Text}' must be an integer.");
+                //    return;
+                //}
+
+                string deviceId = txtDeviceId.Text.Trim();
 
                 if (string.IsNullOrWhiteSpace(txtValue.Text))
                 {
